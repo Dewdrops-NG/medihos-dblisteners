@@ -1,0 +1,34 @@
+{
+  "name": "hospitalrun-dblisteners",
+  "version": "1.0.4",
+  "description": "CouchDB listeners for HospitalRun",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint *.js dblisteners/*.js userdb-listeners/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HospitalRun/dblisteners.git"
+  },
+  "keywords": [
+    "HospitalRun",
+    "Express"
+  ],
+  "author": "John Kleinschmidt",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/HospitalRun/dblisteners/issues"
+  },
+  "homepage": "http://hospitalrun.io",
+  "dependencies": {
+    "follow": "^1.0.0",
+    "glob": "^7.0.0",
+    "mkdirp": "^0.5.1",
+    "nano": "^7.0.0",
+    "uuid": "^3.0.1",
+    "web-push": "^3.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0"
+  }
+}
